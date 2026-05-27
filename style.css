@@ -1,0 +1,81 @@
+/* Smooth Scroll */
+html {
+  scroll-behavior: smooth;
+}
+
+/* General */
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Home Section */
+.home-section {
+  background: linear-gradient(to right, #141e30, #243b55);
+  color: white;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  padding-top: 80px;
+}
+
+.name {
+  font-size: 48px;
+  font-weight: bold;
+  color: #00bfff;
+}
+
+.intro {
+  font-size: 18px;
+  margin: 20px 0;
+}
+
+.profile-img {
+  width: 300px;
+  max-width: 100%;
+}
+
+/* Section Titles */
+.section-title {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+/* Skills */
+.skill-box {
+  background-color: #0d6efd;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.skill-box:hover {
+  transform: scale(1.05);
+}
+
+/* Projects */
+.project-card {
+  transition: 0.3s;
+}
+
+.project-card:hover {
+  transform: translateY(-10px);
+}
+
+/* Contact */
+form input,
+form textarea {
+  border-radius: 10px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .name {
+    font-size: 36px;
+  }
+
+  .intro {
+    font-size: 16px;
+  }
+}
